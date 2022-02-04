@@ -11,3 +11,7 @@ function create() {
 function get(id: number) {
   console.log(`Get the DAO, id=[${id}]`)
 }
+
+function destroy(id: number) {
+  console.log(`Delete the DAO, is=[${id}]`)
+}
